@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
+}
+
+hr {
+    margin: 20px 10px 10px 10px;
+}
+
+#dobronin, #jihlava, #city, #mesto {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Moderní font */
+    background-color: #f4f4f9; /* Světlé pozadí */
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+#weather, #dobronin, #jihlava, #city {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Zaoblené rohy */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Jemný stín */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#dobronin, #jihlava, #city {
+    width: 70%; /* Zúží pole na 30% šířky (pro PC) */
+    padding: 8px; /* Sníží výšku polí */
+    font-size: 16px; /* Menší písmo */
+    margin: 5px; /* Menší mezery mezi prvky */
+    border-radius: 6px; /* Mírně zaoblené rohy */
+    border: 1px solid #ccc; /* Jemné ohraničení */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); /* Lehký stín */
+    transition: all 0.3s ease;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
